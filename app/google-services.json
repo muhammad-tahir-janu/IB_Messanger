@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "168410511189",
+    "project_id": "ib-messenger-d3149",
+    "storage_bucket": "ib-messenger-d3149.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:168410511189:android:b42a851d97579fab5861dc",
+        "android_client_info": {
+          "package_name": "com.tahir7008.ibmessanger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "168410511189-9r0sbbpr5qf90tlajhr3grk5ni9ttujp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5RQb0b0taX8t6xsunETSgoRGbLUWKtSk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "168410511189-9r0sbbpr5qf90tlajhr3grk5ni9ttujp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

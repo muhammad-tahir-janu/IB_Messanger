@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/bg"
+    tools:context=".Activities.UserChatActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9"
+        android:orientation="vertical">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUserChat"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_weight="9"
+            android:background="@color/white"
+            app:cardCornerRadius="45dp"
+            android:layout_marginTop="5dp"
+
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center">
+
+                <EditText
+                    android:id="@+id/tvTypeMsg"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="25dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="5dp"
+                    android:layout_weight="9"
+                    android:padding="8dp"
+                    android:hint="Type a Message"
+                    android:textSize="18sp"
+                    android:inputType="textCapSentences"
+                    android:background="@color/white"
+
+                    />
+
+                <ImageView
+                    android:id="@+id/ivAttachment"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_attach_file_24" />
+
+                <ImageView
+                    android:id="@+id/ivCamera"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="5dp"
+                    android:layout_weight="1"
+                    app:srcCompat="@drawable/ic_baseline_camera_alt_24" />
+
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <ImageView
+            android:id="@+id/btnSendMsg"
+            android:layout_width="0dp"
+            android:layout_height="45dp"
+            android:layout_marginStart="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10sp"
+            android:layout_weight="1"
+            android:background="@drawable/circle_green"
+            android:padding="7dp"
+            app:srcCompat="@drawable/ic_baseline_send_24" />
+
+    </LinearLayout>
+
+</LinearLayout>
